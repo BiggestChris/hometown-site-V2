@@ -1,0 +1,117 @@
+:root {
+    --red: #49D49D;
+    --light: #ECFEFA;
+    --aqua: #C9F8EE;
+    --light-blue: #385742;
+    --dark-blue: #564946;
+}
+
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    width: 100px;
+}
+
+#hero-section {
+    color: var(--light);
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+#title {
+    background-color: var(--dark-blue);
+    display: block;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+#sub-title {
+    background-color: var(--light-blue);
+    display: block;
+    padding: 5px 15px 5px 15px;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+#activities-wrapper{
+    color: var(--dark-blue);
+    background-color: var(--light);
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#activities-section {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity-img {
+    border-radius: 50%;
+}
+
+.activity {
+    width: 200px;
+    margin: 5px;
+}
+
+#guide-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#business-card {
+    background-color: var(--aqua);
+    display: flex;
+    padding: 25px 5px 25px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: var(--dark-blue);
+    box-shadow: 0px 6px 0px 0px var(--dark-blue);
+    height: 250px;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+#card-image {
+    width: 180px;
+}
+
+#card-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    min-width: 150px;
+}
+
+.italics {
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
